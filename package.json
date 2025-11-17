@@ -1,0 +1,14 @@
+{
+  "name": "nodejs-container-app",
+  "version": "1.0.0",
+  "description": "Simple Express app for CI/CD with GitHub Actions and Docker",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "NODE_ENV=development node server.js",
+    "test": "echo \"(optional) add tests\" && exit 0"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
