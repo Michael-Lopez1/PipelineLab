@@ -3,7 +3,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (_req, res) => {
-  res.send('Michael');
+  res.send('Michael Lopez');
 });
 
 app.listen(PORT, () => {
